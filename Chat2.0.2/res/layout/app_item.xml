@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:gravity="left">
+    <!-- icon -->
+    <ImageView 
+        android:id="@+id/img_app_icon"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:padding="5dip"
+        />
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dip">
+        <!-- 名字 -->
+        <TextView 
+            android:id="@+id/txt_app_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_soft" 
+            android:textSize="18sp"/>
+        <!-- 
+        <TextView 
+            android:id="@+id/txt_app_package"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_item_name" />
+    	 -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099FF" >
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/txt_tip"
+            android:text="@string/title_bound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#663366"
+            android:textSize="18sp" />
+        
+        <ListView 
+            android:id="@+id/list_bound_driver"
+            android:layout_width="fill_parent"
+            android:visibility="gone"
+            android:layout_height="200dip"
+            android:fadeScrollbars="false"
+            android:padding="5dip" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="100dip"
+            android:layout_marginRight="15dip"
+            android:layout_height="wrap_content"
+            android:text="@string/title_search" 
+            android:background="@drawable/button"/>
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="@string/title_cancle" 
+            android:background="@drawable/button"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>
