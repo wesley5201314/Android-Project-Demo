@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File</string>
+    <string name="hello_world">file name</string>
+    <string name="label">file content</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">save</string>
+    <string name="success">save success!</string>
+    <string name="fail">save fail!</string>
+    <string name="sderror">sderror or sd not exit! </string>
+
+</resources>

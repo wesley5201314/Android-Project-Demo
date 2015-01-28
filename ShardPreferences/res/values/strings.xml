@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShardPreferences</string>
+    <string name="label1">name</string>
+    <string name="label2">age</string>
+    <string name="button">button</string>
+    <string name="success">save success</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
