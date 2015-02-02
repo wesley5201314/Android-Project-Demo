@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.db"
+    package="com.example.nethtml"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="14" />
-	<!-- 单元测试 -->
-    <instrumentation android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.example.db" android:label="Test App"/>
-    
+    <!-- 访问网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-       <!-- 引入单元测试需要的jar包 -->
-       <uses-library android:name="android.test.runner" />
-       <!-- 内容提供者  -->
-       <provider android:name=".PersonProvider" android:authorities="com.example.providers.personprovider"/>
-        
-       <activity
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -29,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       
     </application>
 
 </manifest>

@@ -17,6 +17,7 @@ import android.widget.SimpleAdapter;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
+import com.example.adapter.PersonAdapter;
 import com.example.domain.Person;
 import com.example.services.PersonService;
 

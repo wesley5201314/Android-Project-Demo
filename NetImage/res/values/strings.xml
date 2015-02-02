@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NetImage</string>
+    <string name="imagePath">imagePath</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">View</string>
+    <string name="imageView">imageView</string>
+    <string name="error">read inputStream error!</string>
+    <string name="url">http://192.168.2.110:8080/LeYuCheng/test.jpg</string>
+
+</resources>

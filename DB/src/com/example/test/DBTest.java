@@ -54,7 +54,7 @@ public class DBTest extends AndroidTestCase {
 	
 	public void testScrollData() throws Exception{
 		PersonService service = new PersonService(this.getContext());
-		List<Person> persons = service.getScrollData(0, 5);
+		List<Person> persons = service.getScrollData(0, 22);
 		for(Person person : persons){
 			Log.i(TAG, person.toString());
 		}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewGetPost</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text1">name</string>
+    <string name="text2">time</string>
+    <string name="button">send</string>
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="action_settings">Settings</string>
+</resources>
